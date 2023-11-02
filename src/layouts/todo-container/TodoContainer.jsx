@@ -1,4 +1,4 @@
-import React from 'react'
+import './TodoContainer.scss'
 import TodoAdder from '../todo-adder/TodoAdder'
 import TodoList from '../todo-list/todoList'
 
