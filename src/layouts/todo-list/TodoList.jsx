@@ -1,9 +1,16 @@
-import React from 'react'
+import PropTypes, { string } from 'prop-types'
 
-const TodoList = () => {
+const TodoList = ({ todos }) => {
   return (
-    <div>TodoList</div>
+    <div className='todo__list'>TodoList</div>
   )
 }
-
+TodoList.PropTypes = {
+  todoname: PropTypes.string,
+  isCompleted: PropTypes.bool,
+  isEdited: PropTypes.bool,
+  isEditing: PropTypes.bool,
+  date: PropTypes.object,
+  alarm: PropTypes.number
+}
 export default TodoList
