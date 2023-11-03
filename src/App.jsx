@@ -11,7 +11,7 @@ function App() {
     <>
       <Nav/>
       <Routes>
-        <Route path='todocontainer' element={<TodoContainer/>}/>
+        <Route path='/' element={<TodoContainer/>}/>
         <Route path='active' element={<Active/>}/>
         <Route path='archive' element={<Archive/>}/>
       </Routes>

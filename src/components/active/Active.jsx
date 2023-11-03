@@ -2,7 +2,9 @@ import React from 'react'
 
 const Active = () => {
   return (
-    <div>Active</div>
+    <div>
+      <h1>Active</h1>
+    </div>
   )
 }
 

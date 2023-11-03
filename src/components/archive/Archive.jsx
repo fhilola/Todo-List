@@ -2,7 +2,9 @@ import React from 'react'
 
 const Archive = () => {
   return (
-    <div>Archive</div>
+    <div>
+      <h1>Archive</h1>
+    </div>
   )
 }
 

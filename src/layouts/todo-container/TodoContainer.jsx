@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const TodoContainer = () => {
   const [todos, setTodos] = useState([])
-  console.log(todos);
+  // console.log(todos);
   return (
     <div className='todo__container'>
         <TodoAdder todos={todos} setTodos={setTodos}/>

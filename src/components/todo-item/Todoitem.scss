@@ -1,0 +1,11 @@
+.todo__item{
+    background-color: #ffffffaa;
+    padding: 16px;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    h3{
+        flex: 1;
+    }
+}

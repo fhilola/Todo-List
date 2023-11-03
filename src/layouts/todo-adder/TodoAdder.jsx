@@ -2,13 +2,16 @@ import { useState } from 'react'
 import './TodoAdder.scss'
 import {FiPlus} from 'react-icons/fi'
 import PropTypes from 'prop-types';
+import useRandomId from '../../hooks/useRandomId';
 
 const TodoAdder = ({todos, setTodos}) => {
   const [todoname, setTodoname] = useState("")
+  const id = useRandomId()
 
   function createTodo(e){
     e.preventDefault()
     const todo = {
+      id: id,
       todoname: todoname,
       isCompleted: false,
       isEdited: false,

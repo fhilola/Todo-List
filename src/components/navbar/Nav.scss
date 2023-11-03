@@ -4,6 +4,13 @@
         align-items: center;
         justify-content: center;
         gap: 0 20px;
+        list-style: none;
+        li{
         color: #000;
+        a{
+            color: #000;
+            text-decoration: none;
+        }
+        }
     }
 }

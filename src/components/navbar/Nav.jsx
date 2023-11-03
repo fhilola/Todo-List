@@ -6,7 +6,7 @@ const Nav = () => {
     <div className='nav__wrapper'>
         <ul>
             <li>
-                <Link to='todocontainer'>Tasks</Link>
+                <Link to='/'>Tasks</Link>
             </li>
             <li>
                 <Link to='active'>Active</Link>
