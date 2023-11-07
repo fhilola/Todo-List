@@ -1,11 +1,39 @@
-.todo__item{
+.todo__item {
     background-color: #ffffffaa;
     padding: 16px;
     color: #000;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    h3{
-        flex: 1;
+
+    .title__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .button__wrapper {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+            width: 100%;
+            border: none;
+            padding: 10px;
+            color: #fff;
+
+            &:first-child {
+                background-color: green;
+            }
+
+            &:nth-child(2) {
+                background-color: gold;
+                color: #000;
+            }
+
+            &:last-child {
+                background-color: red;
+            }
+        }
     }
 }
